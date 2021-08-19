@@ -47,5 +47,5 @@ def generate_images(model, test_input, tar, epoch):
         plt.imshow(display_list[i] * 0.5 + 0.5)
         plt.axis('off')
     plt.savefig('Pictures/Epoch {}.png'.format(epoch))
-    plt.show()
+    # plt.show()
     # plt.close()
