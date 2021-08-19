@@ -23,7 +23,7 @@ labels_loc =  + '/true_' + str(dataSize) # In format ..Folder/true_dataSize
 # Choose optimizer, loss, metrics and U-Net.
 select_unet = 'UNet'        # Select type of UNet (UNet,UNetPlus,UNetMinus,UNetMinustwo. More or less layers.)
 select_optimizer = 'Adam'   # Select the optimizer 
-learning_rate = 1e-4        # Learning rate for the optimizer
+learning_rate = 1e-5        # Learning rate for the optimizer
 select_loss = 'l2norm'      # Type of loss. (L2 or normed L2)
 select_train_metric = 'BinaryCrossentropy' # Train metric
 select_test_metric = 'BinaryCrossentropy'  # Validation metric
