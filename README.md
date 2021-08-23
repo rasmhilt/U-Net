@@ -14,6 +14,7 @@ Files included:
 - scripts.py
 - statistics.py
 - train.py
+
 Main.py is used for choosing settings for the model (optimizer, loss, metrics etc.) and training is started with running the Main.py file.
 train.py has the training loop and the other files contain functions used in the training loop.
 
